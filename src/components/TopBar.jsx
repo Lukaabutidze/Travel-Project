@@ -10,7 +10,10 @@ const TopBar = () => {
           size={50}
           className="text-[var(--primary-dark)] mr-2"
         />
-        <h1 className="text-3xl font-bold text-gray-700">TropicTrip</h1>
+        <span className="text-2xl font-bold bg-cyan-200 py-1 px-2 rounded-lg ">
+          Tropic
+        </span>
+        <span className="text-2xl hidden sm:inline font-bold">Trip</span>
       </div>
       <div className="flex">
         <div className="hidden md:flex items-center px-6">
